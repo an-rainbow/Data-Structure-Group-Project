@@ -1,0 +1,9 @@
+Additional Feature
+For this feature, our program displays to the console the total livable area per capita for the ZIP Code which has the minimum total fines per capita. 
+Firstly, we calculate the total fines per capita for each ZIP Code (i.e. the total aggregate fines divided by the population of that ZIP Code), find 
+the minimum result and mark the ZIP Code of the minimum result as minZipCode. Secondly, we calculate the total livable area per capita for the minZipCode 
+(i.e. the total livable area in the minZipCode divided by the population of minZipCode). The Data of fines is provided in the parking violations input file, 
+the data of population is provided in the population input file, and the data of livable area is provided in the property values input file.
+
+Data Structure used: TreeMap, HashMap, ArrayList
+
